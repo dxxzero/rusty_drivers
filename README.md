@@ -29,7 +29,7 @@ Options:
 ```
 
 # Example
-Since the executable does not register a server to exploit the driver, this needs to be done manually:
+Since the executable does not register a service to exploit the driver, this needs to be done manually:
 ```
 sc create Test123 binpath= c:\test\<DRIVER>.sys type= kernel start= auto
 ```
